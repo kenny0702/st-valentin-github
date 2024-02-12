@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    max-width: 600px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border: 2px solid blue;
+    display: block; /* Rann imaj la yon elèman blok pou li byen pozisyonnen */
+    margin: 0 auto; /* Mete margin nan mitan pou li byen poze nan kontènè a */
+}
+
+h1 {
+    color: pink;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#imageContainer {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%; /* Si ekran an pi piti, rive 90% nan lajè */
+    }
+}
